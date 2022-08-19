@@ -1,0 +1,148 @@
+@media (max-width: 105rem) {
+  .element_container {
+    margin-top: 46rem;
+  }
+}
+
+@media (max-width: 90rem) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 85rem) {
+  .header {
+    height: 8rem;
+  }
+
+  .header_nav {
+    height: 8rem;
+  }
+  .container {
+    max-width: 100rem;
+  }
+
+  .grid_container {
+    grid-template-columns: 1fr;
+  }
+
+  .element_container {
+    margin-top: 40rem;
+  }
+
+  .watch-card {
+    gap: 2rem;
+    margin: 5rem 3rem;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+
+  .section_descr {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  .element-4_descr {
+    max-width: 70%;
+  }
+
+  .element_3-descr {
+    max-width: none;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .card_title {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+  .footer_title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+  /* *********************************
+MOBILE NAVIGATION
+ ************************************/
+  .header_list {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 6rem;
+    transition: 0.5s;
+  }
+
+  .header_list {
+    display: block;
+  }
+
+  .header_item {
+    margin-top: 5rem;
+  }
+
+  .header_link {
+    padding: 0.8rem 0.8rem 0.8rem 3.2rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .header_link:hover {
+    color: #f1f1f1;
+  }
+
+  .icon_close {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+    margin-left: 5rem;
+  }
+
+  .icon-mobile-nav {
+    display: block;
+  }
+
+  .icon_nav {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon_open {
+    height: 3.6rem;
+    width: 3.6rem;
+    color: var(--white-color);
+  }
+}
+
+@media (max-width: 75rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .container {
+    max-width: 80rem;
+  }
+
+  .element_container {
+    margin-top: 35rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
