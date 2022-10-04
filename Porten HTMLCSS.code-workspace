@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\My HTML\\09-Omnifood-Optimization"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Porten HTMLCSS"
+  }
+}

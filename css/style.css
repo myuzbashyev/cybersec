@@ -1,0 +1,16 @@
+@import "_global.css";
+@import "_overall.css";
+@import "_variables.css";
+@import "_fonts.css";
+
+/* components imports */
+
+@import "./components/below-nav.css";
+@import "./components/header.css";
+@import "./components/first.css";
+@import "./components/season-collection.css";
+@import "./components/new.css";
+@import "./components/our-brands.css";
+@import "./components/footer.css";
+
+@import "./media.css";

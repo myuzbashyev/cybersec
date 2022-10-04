@@ -1,0 +1,49 @@
+.below-nav {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.info {
+  color: var(--gray-color);
+  padding: 2.2rem 0;
+}
+
+.info p {
+  font-size: 1.2rem;
+}
+
+.info:not(:last-child) {
+  gap: 2rem;
+}
+
+.exit {
+  padding: 2.2rem 0;
+  color: var(--gray-color);
+}
+
+.exit a {
+  font-size: 1.2rem;
+}
+
+.exit {
+  gap: 1rem;
+}
+
+.slash_line {
+  border-left: thin solid var(--gray-color);
+  height: 1.2rem;
+  transform: rotate(25deg);
+}
+
+.icon_exit {
+  height: 1.6rem;
+  width: 1.6rem;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.vertical_line {
+  border-left: thin solid var(--gray-color);
+  height: 1.5rem;
+}
