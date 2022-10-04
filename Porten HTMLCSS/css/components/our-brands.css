@@ -1,0 +1,17 @@
+.brands {
+  margin-top: 17rem;
+  background-color: #0f0f0f;
+}
+
+.brands_title-container {
+}
+
+.brand_grid {
+  margin-top: 4rem;
+  padding-bottom: 8rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.brands_title {
+  padding-top: 6rem;
+}
